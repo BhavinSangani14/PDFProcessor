@@ -13,3 +13,12 @@ This project provides a scalable architecture for processing large PDFs and corr
 ![AWS Architecture](./assets/aws-architecture.png)
 
 ## Prerequisites
+
+1. **AWS Services**: The architecture uses the following AWS services:
+   - AWS lambda
+   - AWS ECR
+   - AWS S3
+   - AWS CloudWatch(Monitoring)
+   - AWS CloudFormation
+2. **Docker**: Required for building the PDF processing image.
+3. **Scripting** : Required Python and Shell for scripting
